@@ -15,7 +15,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o ShivamPayroll_Mobile_CloudBuild.zip
+          unzip -o ShivamPayroll_Mobile_CloudBuild_Logo.zip
           cd ShivamPayrollCloudBuild
           echo "PROJECT_DIR=$PWD" >> $GITHUB_ENV
 

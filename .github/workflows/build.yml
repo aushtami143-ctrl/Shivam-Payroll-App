@@ -33,7 +33,7 @@ jobs:
 
       - name: Build APK
         run: |
-          cd "$PROJECT_DIR"
+          cd ShivamPayrollCloudBuild
           gradle assembleDebug --no-daemon
 
       - name: Upload APK
